@@ -22,6 +22,9 @@
 
     <ItemGroup>
       <None Remove="rocksdb.dll" />
+      <Content Include="rocksdb.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
     
 </Project>
