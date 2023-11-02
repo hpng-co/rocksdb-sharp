@@ -33,7 +33,7 @@
   
   <ItemGroup>
     <!--Windows-->
-    <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/win-x64/native/rocksdb.dll" Link="rocksdb.dll" Pack="true" PackagePath="runtimes/win-x64/native/rocksdb.dll" />
+    <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/win-x64/native/rocksdb.dll" Link="librocksdb.so" Pack="true" PackagePath="runtimes/win-x64/native/rocksdb.dll" />
     <!--Linux-->
     <Content CopyToOutputDirectory="PreserveNewest" Include="runtimes/linux-x64/native/librocksdb.so" Link="librocksdb.so" Pack="true" PackagePath="runtimes/linux-x64/native/librocksdb.so" />
     
